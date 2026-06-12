@@ -48,11 +48,16 @@ Set `AZURE_OPENAI_ENDPOINT` + `AZURE_OPENAI_API_KEY` (+ deployment) in `.env`. T
 uses `langchain-openai`'s `AzureChatOpenAI` to rephrase the grounded answer. `GET /health` reports
 `"mode": "azure"`. Without it, the graph still runs end-to-end.
 
+## ⚖️ Framework comparison
+New to these frameworks? See **[COMPARISON.md](COMPARISON.md)** — a side-by-side of
+**Microsoft Agent Framework / Foundry vs. LangGraph vs. Semantic Kernel** (abstractions, control flow,
+state, tools, Azure fit, the same agent in each, and how to choose).
+
 ## 🏗️ How it maps to the course
 This is the **graph-based orchestration** counterpart to
 [Weeks 6–7 (multi-agent)](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week06-07-multi-agent).
 LangGraph and the Microsoft Agent Framework solve similar problems (stateful, branching agent flows) with
-different APIs — compare the two.
+different APIs — see [COMPARISON.md](COMPARISON.md).
 
 ## 🧰 Tech stack
 LangGraph, LangChain Core, `langchain-openai` (Azure OpenAI), FastAPI, Pydantic v2.
