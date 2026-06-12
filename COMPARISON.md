@@ -90,3 +90,18 @@ Each framework has a runnable repo in this series — clone any and `uvicorn app
 - **Semantic Kernel:** [agentic-ai-azure-semantic-kernel](https://github.com/satyajeetaiml-hue/agentic-ai-azure-semantic-kernel)
 - **Semantic Kernel + Azure data services:** [PostgreSQL](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-postgresql) (Orders Assistant) · [AI Search](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-ai-search) (RAG) · [Cosmos DB](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-cosmosdb) (durable memory)
 - **Course hub:** [azure-agentic-ai-masterclass](https://github.com/satyajeetaiml-hue/azure-agentic-ai-masterclass)
+
+---
+
+## 📊 Slides index
+
+Each project has a **7-slide deck** (`.pptx`, with presenter notes) and a **PDF handout** (slides + notes).
+
+| Project | Framework | Download |
+|---------|-----------|----------|
+| Microsoft Agent Framework (12 weekly labs) | Agent Framework / Foundry | See the hub [Teaching slides index](https://github.com/satyajeetaiml-hue/azure-agentic-ai-masterclass#-teaching-slides) |
+| LangGraph — Support Triage Graph | LangGraph | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph/raw/main/slides/agentic-ai-azure-langgraph.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph/raw/main/slides/agentic-ai-azure-langgraph-handout.pdf) |
+| Semantic Kernel — Claims Validation | Semantic Kernel | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-semantic-kernel/raw/main/slides/agentic-ai-azure-semantic-kernel.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-semantic-kernel/raw/main/slides/agentic-ai-azure-semantic-kernel-handout.pdf) |
+| SK + Azure PostgreSQL — Orders Assistant | Semantic Kernel | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-postgresql/raw/main/slides/agentic-ai-azure-sk-postgresql.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-postgresql/raw/main/slides/agentic-ai-azure-sk-postgresql-handout.pdf) |
+| SK + Azure AI Search — Knowledge Assistant | Semantic Kernel | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-ai-search/raw/main/slides/agentic-ai-azure-sk-ai-search.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-ai-search/raw/main/slides/agentic-ai-azure-sk-ai-search-handout.pdf) |
+| SK + Azure Cosmos DB — Conversation Memory | Semantic Kernel | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-cosmosdb/raw/main/slides/agentic-ai-azure-sk-cosmosdb.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-cosmosdb/raw/main/slides/agentic-ai-azure-sk-cosmosdb-handout.pdf) |
