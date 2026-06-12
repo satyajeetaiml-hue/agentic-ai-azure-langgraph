@@ -1,5 +1,7 @@
 # LangGraph on Azure — Support Triage Graph
 
+[![CI](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph/actions/workflows/ci.yml/badge.svg)](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph/actions/workflows/ci.yml)
+
 > Companion project to the *Agentic AI on Azure — Enterprise Master Class*, showing the
 > **LangGraph** framework alongside the Microsoft Agent Framework labs.
 > Course hub: [azure-agentic-ai-masterclass](https://github.com/satyajeetaiml-hue/azure-agentic-ai-masterclass).
