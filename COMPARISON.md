@@ -73,7 +73,8 @@ result = await kernel.invoke(plugin_name="policy", function_name="lookup_policy"
 - **Reach for LangGraph** when the *control flow* is the hard part: explicit branches, retries, loops,
   cycles, durable checkpoints, and human-in-the-loop pauses you want to see and test as a graph.
 - **Use Semantic Kernel** to embed AI "skills" (plugins) into an existing application, or when you want a
-  thin, code-first kernel — especially across **.NET and Python**.
+  thin, code-first kernel — especially across **.NET and Python**. See the SK + Azure data-service
+  examples (PostgreSQL, AI Search, Cosmos DB) for plugins over real stores.
 
 > **They overlap, and they're converging.** Microsoft has unified **AutoGen + Semantic Kernel** into the
 > **Microsoft Agent Framework 1.0**. Skills you learn in SK (plugins, function calling) carry directly into
@@ -87,4 +88,5 @@ Each framework has a runnable repo in this series — clone any and `uvicorn app
 - **Microsoft Agent Framework / Foundry:** the [12 weekly labs](https://github.com/satyajeetaiml-hue?tab=repositories&q=agentic-ai-azure) (start with [Week 2](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week02-foundry-claims))
 - **LangGraph:** this repo ([agentic-ai-azure-langgraph](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph))
 - **Semantic Kernel:** [agentic-ai-azure-semantic-kernel](https://github.com/satyajeetaiml-hue/agentic-ai-azure-semantic-kernel)
+- **Semantic Kernel + Azure data services:** [PostgreSQL](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-postgresql) (Orders Assistant) · [AI Search](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-ai-search) (RAG) · [Cosmos DB](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-cosmosdb) (durable memory)
 - **Course hub:** [azure-agentic-ai-masterclass](https://github.com/satyajeetaiml-hue/azure-agentic-ai-masterclass)
